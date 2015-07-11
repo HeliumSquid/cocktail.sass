@@ -220,6 +220,19 @@ img {
   background-color: #eee; }
   .hero img {
     height: 250px; }
+  .hero p {
+    margin-bottom: 40px; }
+
+.btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #2196f3;
+  padding: 1em 2em 1em;
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .btn:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
 
 section {
   padding: 1em 0 1em;
