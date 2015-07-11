@@ -1,6 +1,9 @@
 {
-  "name": "Cocktail.sass",
+  "name": "cocktail.sass",
   "version": "0.0.1",
   "homepage": "https://github.com/HeliumSquid/cocktail.sass",
   "license": "MIT",
+  "authors": [
+  "HeliumSquid"
+]
 }
