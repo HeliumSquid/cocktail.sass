@@ -1,4 +1,4 @@
-![](http://i.imgur.com/uVewoAi.png)
+![](http://i.imgur.com/bBylLMW.png)
 # Cocktail.sass
 A simple material colour library for Sass.
 
