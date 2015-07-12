@@ -2,6 +2,8 @@
 # Cocktail.sass
 A simple material colour library for Sass.
 
+##Colours:
+
 $black: #000000
 
 $white: #ffffff
