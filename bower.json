@@ -1,0 +1,13 @@
+{
+  "name": "cocktail.sass",
+  "version": "0.0.1",
+  "homepage": "http://heliumsquid.github.io/cocktail.sass/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HeliumSquid/cocktail.sass"
+  },
+  "license": "MIT",
+  "authors": [
+  "HeliumSquid"
+]
+}
