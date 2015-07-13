@@ -45,3 +45,75 @@ $brown: #795548
 $grey: #9e9e9e
 
 $blue_grey: #607d8b
+
+#Buttons:
+
+.button
+
+.button-black
+
+.button-white
+
+.button-red
+
+.button-pink
+
+.button-purple
+
+.button-deep-purple
+
+.button-indigo
+
+.button-blue
+
+.button-light-blue
+
+.button-cyan
+
+.button-teal
+
+.button-green
+
+.button-light-green
+
+.button-lime
+
+.button-yellow
+
+.button-amber
+
+.button-orange
+
+.button-deep-orange
+
+.button-brown
+
+.button-grey
+
+.button-blue-grey
+
+```
+<a class="button" href="">Button</a>
+
+<a class="button button-red" href="">Button</a>
+```
+
+#Rounded Buttons:
+
+.button-rounded
+
+```
+<a class="button button-rounded" href="">Button</a>
+
+<a class="button button-rounded button-red" href="">Button</a>
+```
+
+#Action Buttons:
+
+.button-action
+
+```
+<a class="button button-action" href="">Button</a>
+
+<a class="button button-action button-red" href="">Button</a>
+```
