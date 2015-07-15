@@ -2,7 +2,7 @@
 # Cocktail.sass
 A simple material colour library for Sass.
 
-##Colours:
+## :cocktail: Colours:
 
 $black: #000000
 
@@ -46,7 +46,7 @@ $grey: #9e9e9e
 
 $blue_grey: #607d8b
 
-#Buttons:
+## :cocktail: Buttons:
 
 .button
 
@@ -98,7 +98,7 @@ $blue_grey: #607d8b
 <a class="button button-red" href="">Button</a>
 ```
 
-#Rounded Buttons:
+## :cocktail: Rounded Buttons:
 
 .button-rounded
 
@@ -108,7 +108,7 @@ $blue_grey: #607d8b
 <a class="button button-rounded button-red" href="">Button</a>
 ```
 
-#Action Buttons:
+## :cocktail: Action Buttons:
 
 .button-action
 
@@ -118,6 +118,6 @@ $blue_grey: #607d8b
 <a class="button button-action button-red" href="">Button</a>
 ```
 
-#Fixed
+## :cocktail: Fixed
 
 .fixed
