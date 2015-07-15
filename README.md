@@ -117,3 +117,7 @@ $blue_grey: #607d8b
 
 <a class="button button-action button-red" href="">Button</a>
 ```
+
+#Fixed
+
+.fixed
