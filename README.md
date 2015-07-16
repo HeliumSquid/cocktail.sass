@@ -2,7 +2,33 @@
 # Cocktail.sass
 A simple material design library for Sass.
 
-## :cocktail: Colours:
+## Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [Content](#content)
+  - [Colours](#colours)
+  - [Buttons](#buttons)
+  - [Rounded Buttons](#rounded-buttons)
+  - [Action Buttons](#action-buttons)
+  - [Fixed](#fixed)
+- [Dependencies](#dependencies)
+- [License](#license)
+
+## Install
+
+[Download manually.]()
+
+## Usage
+
+```
+// All of Cocktail.sass
+@import "cocktail.sass/assets/cocktail.sass";
+```
+
+## Content
+
+### Colours:
 
 $black: #000000
 
@@ -46,7 +72,7 @@ $grey: #9e9e9e
 
 $blue_grey: #607d8b
 
-## :cocktail: Buttons:
+### Buttons:
 
 .button
 
@@ -98,7 +124,7 @@ $blue_grey: #607d8b
 <a class="button button-red" href="">Button</a>
 ```
 
-## :cocktail: Rounded Buttons:
+### Rounded Buttons:
 
 .button-rounded
 
@@ -108,7 +134,7 @@ $blue_grey: #607d8b
 <a class="button button-rounded button-red" href="">Button</a>
 ```
 
-## :cocktail: Action Buttons:
+### Action Buttons:
 
 .button-action
 
@@ -118,6 +144,32 @@ $blue_grey: #607d8b
 <a class="button button-action button-red" href="">Button</a>
 ```
 
-## :cocktail: Fixed
+### Fixed
 
 .fixed
+
+```
+<a class="button button-action fixed" href="">Button</a>
+```
+
+## Dependencies
+
+You'll need the following installed:
+
+- Latest Sass: `$ gem install sass`
+- Latest Grunt CLI: `$ npm install -g grunt-cli`
+- [Node.js and npm](http://nodejs.org/download/)
+
+```
+$ npm install
+```
+
+To automatically recompile the Sass files:
+
+```
+$ grunt watch
+```
+
+## License
+
+Created by and copyright HeliumSquid. Released under the MIT license.
