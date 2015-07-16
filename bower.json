@@ -1,13 +1,16 @@
 {
   "name": "cocktail.sass",
   "version": "0.0.1",
-  "homepage": "http://heliumsquid.github.io/cocktail.sass/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/HeliumSquid/cocktail.sass"
-  },
-  "license": "MIT",
+  "homepage": "https://github.com/HeliumSquid/cocktail.sass",
   "authors": [
-  "HeliumSquid"
-]
+    "HeliumSquid"
+  ],
+  "description": "A simple material design library for Sass.",
+  "main": "cocktail.sass",
+  "keywords": [
+    "sass",
+    "css",
+    "cocktail"
+  ],
+  "license": "MIT"
 }
