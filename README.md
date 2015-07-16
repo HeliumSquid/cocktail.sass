@@ -21,7 +21,7 @@ A simple material design library for Sass.
 
 ## Usage
 
-```
+```bash
 // All of Cocktail.sass
 @import "cocktail.sass/assets/cocktail.sass";
 ```
@@ -118,7 +118,7 @@ $blue_grey: #607d8b
 
 .button-blue-grey
 
-```
+```bash
 <a class="button" href="">Button</a>
 
 <a class="button button-red" href="">Button</a>
@@ -128,7 +128,7 @@ $blue_grey: #607d8b
 
 .button-rounded
 
-```
+```bash
 <a class="button button-rounded" href="">Button</a>
 
 <a class="button button-rounded button-red" href="">Button</a>
@@ -138,7 +138,7 @@ $blue_grey: #607d8b
 
 .button-action
 
-```
+```bash
 <a class="button button-action" href="">Button</a>
 
 <a class="button button-action button-red" href="">Button</a>
@@ -148,7 +148,7 @@ $blue_grey: #607d8b
 
 .fixed
 
-```
+```bash
 <a class="button button-action fixed" href="">Button</a>
 ```
 
@@ -160,13 +160,13 @@ You'll need the following installed:
 - Latest Grunt CLI: `$ npm install -g grunt-cli`
 - [Node.js and npm](http://nodejs.org/download/)
 
-```
+```bash
 $ npm install
 ```
 
 To automatically recompile the Sass files:
 
-```
+```bash
 $ grunt watch
 ```
 
