@@ -3,6 +3,7 @@
 A simple material design library for Sass.
 
 ![](https://img.shields.io/david/HeliumSquid/cocktail.sass.svg)
+![](https://img.shields.io/badge/colours-21-orange.svg)
 
 ## Contents
 
