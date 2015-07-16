@@ -2,6 +2,8 @@
 # Cocktail.sass
 A simple material design library for Sass.
 
+![](https://david-dm.org/HeliumSquid/cocktail.sass.svg)
+
 ## Contents
 
 - [Install](#install)
