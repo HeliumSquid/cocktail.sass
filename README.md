@@ -20,7 +20,7 @@ A simple material design library for Sass.
 
 ## Install
 
-[Download manually.]()
+[Download manually.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
 
 ## Usage
 
