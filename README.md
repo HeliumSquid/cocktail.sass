@@ -2,6 +2,9 @@
 # Cocktail.sass
 A simple material design library for Sass.
 
+![](https://img.shields.io/david/HeliumSquid/cocktail.sass.svg)
+![](https://img.shields.io/badge/colours-21-orange.svg)
+
 ## Contents
 
 - [Install](#install)
@@ -17,7 +20,7 @@ A simple material design library for Sass.
 
 ## Install
 
-[Download manually.]()
+[Download manually.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
 
 ## Usage
 
