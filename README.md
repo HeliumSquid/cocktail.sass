@@ -2,7 +2,7 @@
 # Cocktail.sass
 A simple material design library for Sass.
 
-![](https://david-dm.org/HeliumSquid/cocktail.sass.svg)
+[![Dependency Status](https://david-dm.org/HeliumSquid/cocktail.sass.svg)](https://david-dm.org/HeliumSquid/cocktail.sass)
 ![](https://img.shields.io/badge/colours-21-orange.svg)
 
 ## Contents
