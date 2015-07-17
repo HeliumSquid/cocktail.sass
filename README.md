@@ -167,10 +167,16 @@ You'll need the following installed:
 $ npm install
 ```
 
-To automatically recompile the Sass files:
+- grunt-contrib-concat
+- grunt-contrib-jshint
+- grunt-contrib-sass
+- grunt-contrib-uglify
+- grunt-contrib-watch
+
+To run all of this at once you can use:
 
 ```bash
-$ grunt watch
+$ grunt default
 ```
 
 ## License
