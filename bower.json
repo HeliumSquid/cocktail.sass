@@ -21,6 +21,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-  "cocktail.sass" : "https://github.com/HeliumSquid/cocktail.sass.git"
+    "cocktail.sass": "*"
   }
 }
