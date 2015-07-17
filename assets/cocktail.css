@@ -102,6 +102,10 @@
 <<<<<<< HEAD
 =======
 
+.button-top {
+  padding: 1em 1.2em;
+  border-radius: 50%; }
+
 .fixed {
   position: fixed;
   bottom: 30px;
