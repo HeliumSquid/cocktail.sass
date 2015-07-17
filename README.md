@@ -177,7 +177,6 @@ $ npm install
 ```
 
 - grunt-contrib-concat
-- grunt-contrib-jshint
 - grunt-contrib-sass
 - grunt-contrib-uglify
 - grunt-contrib-watch
@@ -186,6 +185,12 @@ To run all of this at once you can use:
 
 ```bash
 $ grunt default
+```
+
+To automatically recompile the Sass files
+
+```bash
+$ grunt watch
 ```
 
 ## License
