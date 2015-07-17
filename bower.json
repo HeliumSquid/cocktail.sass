@@ -12,5 +12,15 @@
     "css",
     "cocktail"
   ],
-  "license": "MIT"
+  "ignore": [
+    ".gitignore",
+    ".sass-cache",
+    "*.css.map",
+    "node_modules",
+    "bower_components"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  "cocktail.sass" : "https://github.com/HeliumSquid/cocktail.sass.git"
+  }
 }
