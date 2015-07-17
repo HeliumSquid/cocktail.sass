@@ -187,7 +187,7 @@ To run all of this at once you can use:
 $ grunt default
 ```
 
-To automatically recompile the Sass files
+To automatically recompile the Sass files:
 
 ```bash
 $ grunt watch
