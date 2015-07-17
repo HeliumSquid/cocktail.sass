@@ -20,7 +20,16 @@ A simple material design library for Sass.
 
 ## Install
 
-[Download manually.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
+### Manually
+
+[Download here.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
+
+### Bower
+
+```bash
+$ bower install cocktail.sass
+
+```
 
 ## Usage
 
