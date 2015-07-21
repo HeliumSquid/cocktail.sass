@@ -1,0 +1,16 @@
+language: node_js
+
+node_js: 0.12.7
+
+before_script:
+  - npm install -g grunt-cli
+  # Install grunt-contrib-concat
+  - npm install -g grunt-contrib-concat
+  # Install grunt-contrib-sass
+  - npm install -g grunt-contrib-sass
+  # Install grunt-contrib-uglify
+  - npm install -g grunt-contrib-uglify
+  # Install grunt-contrib-watch
+  - npm install -g grunt-contrib-watch
+
+script: grunt watch
