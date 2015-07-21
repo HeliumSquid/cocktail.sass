@@ -4,7 +4,8 @@
   border: 0;
   padding: 1em 2em 1em;
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 2px; }
   .button:hover {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     transition-delay: 0s; }
@@ -99,8 +100,6 @@
 .button-blue-grey {
   color: #ffffff;
   background-color: #607d8b; }
-<<<<<<< HEAD
-=======
 
 .button-top {
   padding: 1em 1.2em;
@@ -111,6 +110,3 @@
   bottom: 30px;
   right: 30px;
   z-index: 100; }
-
-/*# sourceMappingURL=cocktail.css.map */
->>>>>>> master

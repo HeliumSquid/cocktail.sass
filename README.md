@@ -2,7 +2,7 @@
 # Cocktail.sass
 A simple material design library for Sass.
 
-![](https://img.shields.io/david/HeliumSquid/cocktail.sass.svg)
+[![Dependency Status](https://david-dm.org/HeliumSquid/cocktail.sass.svg)](https://david-dm.org/HeliumSquid/cocktail.sass)
 ![](https://img.shields.io/badge/colours-21-orange.svg)
 
 ## Contents
@@ -20,7 +20,16 @@ A simple material design library for Sass.
 
 ## Install
 
-[Download manually.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
+### Manually
+
+[Download here.](https://github.com/HeliumSquid/cocktail.sass/archive/master.zip)
+
+### Bower
+
+```bash
+$ bower install cocktail.sass
+
+```
 
 ## Usage
 
@@ -168,12 +177,24 @@ $ npm install
 ```
 
 - grunt-contrib-concat
+<<<<<<< HEAD
+=======
 - grunt-contrib-jshint
+>>>>>>> fd6f7d080356e2b4a0d23f0a4523d8d280e23a40
 - grunt-contrib-sass
 - grunt-contrib-uglify
 - grunt-contrib-watch
 
 To run all of this at once you can use:
+<<<<<<< HEAD
+
+```bash
+$ grunt default
+```
+
+To automatically recompile the Sass files:
+=======
+>>>>>>> fd6f7d080356e2b4a0d23f0a4523d8d280e23a40
 
 ```bash
 $ grunt default
