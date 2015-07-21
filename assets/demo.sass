@@ -19,9 +19,13 @@ body
   margin: 2em auto
 
 h1
-  color: #555
+  color: $white
   font-size: 2em
   font-weight: 400
+
+h2
+  color: $blue
+  margin: 40px
 
 p
   margin: 0 auto
@@ -37,6 +41,39 @@ hr
   margin: 50px
   border: 0
 
+.container
+  position: relative
+  height: 100%
+  width: 100%
+
+//Navbar.
+
+.navbar
+  background-color: #fff
+  height: 70px
+  position: relative
+  img
+    position: absolute
+    top: 50%
+    left: 10%
+    transform: translate(-50%, -50%)
+    height: 60px
+    transition: 1s ease
+    cursor: pointer
+    &:hover
+      opacity: 0.7
+  ul
+    list-style-type: none
+    position: absolute
+    top: 50%
+    right: 10%
+    transform: translate(-10%, -50%)
+  li
+    float: left
+    margin: 20px
+  a
+    color: $blue
+
 @media only screen and (max-width: 280px)
   body, p
     width: 95%
@@ -44,13 +81,26 @@ hr
     font-size: 1.5em
     margin: 0 0 0.3em
 
+//Hero section.
+
 .hero
   padding: 7em 0 8em
-  background-color: #eee
+  background: -webkit-linear-gradient(90deg, rgba(76, 184, 196, 0.7) 10%, rgba(60, 211, 173, 0.9) 90%), url(https://static.pexels.com/photos/170/apple-laptop-notebook-notes-large.jpg) center center no-repeat
+  background: -moz-linear-gradient(90deg, rgba(76, 184, 196, 0.7) 10%, rgba(60, 211, 173, 0.9) 90%), url(https://static.pexels.com/photos/170/apple-laptop-notebook-notes-large.jpg) center center no-repeat
+  background: -ms-linear-gradient(90deg, rgba(76, 184, 196, 0.7) 10%, rgba(60, 211, 173, 0.9) 90%), url(https://static.pexels.com/photos/170/apple-laptop-notebook-notes-large.jpg) center center no-repeat
+  background: -o-linear-gradient(90deg, rgba(76, 184, 196, 0.7) 10%, rgba(60, 211, 173, 0.9) 90%), url(https://static.pexels.com/photos/170/apple-laptop-notebook-notes-large.jpg) center center no-repeat
+  background: linear-gradient(90deg, rgba(76, 184, 196, 0.7) 10%, rgba(60, 211, 173, 0.9) 90%), url(https://static.pexels.com/photos/170/apple-laptop-notebook-notes-large.jpg) center center no-repeat
+  background-size: cover
+  moz-background-size: cover
+  o-background-size: cover
+  webkit-background-size: cover
+  color: $white
   img
     height: 250px
   p
     margin-bottom: 40px
+
+//Download button in hero.
 
 .btn
   color: $white
@@ -59,9 +109,18 @@ hr
   padding: 1em 2em 1em
   transition-delay: 0.2s
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
+  border-radius: 2px
   &:hover
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2)
     transition-delay: 0s
+
+//Page-content
+
+.page-content
+  max-width: 80%
+  margin: 50px auto
+
+//All the colours displayed.
 
 section
   padding: 1em 0 1em
@@ -75,6 +134,10 @@ section p
   &:hover
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2)
     transition-delay: 0s
+
+.colours
+  max-width: 100%
+  margin: 50px auto
 
 .colours section:nth-child(1)
   background-color: $black
@@ -139,15 +202,16 @@ section p
 .colours section:nth-child(21)
   background-color: $blue_grey
 
+//Buttons.
+
 .buttons
   background-color: $white
   padding: 3em 0 3em
 
-.buttons h2
-  margin-bottom: 40px
-
 .button
   margin: 10px
+
+//Big download button at the end of the page.
 
 .download
   padding: 3em 0 3em
@@ -155,7 +219,9 @@ section p
   background-color: $blue
   color: $white
 
+//Code snippets.
+
 .code
   color: $white
-  background-color: $grey
+  background-color: $blue
   padding: 10px
