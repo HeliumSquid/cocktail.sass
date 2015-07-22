@@ -34,7 +34,7 @@ $ bower install cocktail.sass
 
 ## Usage
 
-```bash
+```css
 // All of Cocktail.sass
 @import "cocktail.sass/assets/cocktail.sass";
 ```
@@ -131,7 +131,7 @@ $blue_grey: #607d8b
 
 .button-blue-grey
 
-```bash
+```html
 <a class="button" href="">Button</a>
 
 <a class="button button-red" href="">Button</a>
@@ -141,7 +141,7 @@ $blue_grey: #607d8b
 
 .button-rounded
 
-```bash
+```html
 <a class="button button-rounded" href="">Button</a>
 
 <a class="button button-rounded button-red" href="">Button</a>
@@ -151,7 +151,7 @@ $blue_grey: #607d8b
 
 .button-action
 
-```bash
+```html
 <a class="button button-action" href="">Button</a>
 
 <a class="button button-action button-red" href="">Button</a>
@@ -161,7 +161,7 @@ $blue_grey: #607d8b
 
 .fixed
 
-```bash
+```html
 <a class="button button-action fixed" href="">Button</a>
 ```
 
