@@ -1,14 +1,3 @@
 language: node_js
 
 node_js: 0.12.7
-
-before_script:
-  - npm install -g grunt-cli
-  # Install grunt-contrib-concat
-  - npm install -g grunt-contrib-concat --save-dev
-  # Install grunt-contrib-sass
-  - npm install -g grunt-contrib-sass --save-dev
-  # Install grunt-contrib-uglify
-  - npm install -g grunt-contrib-uglify --save-dev
-  # Install grunt-contrib-watch
-  - npm install -g grunt-contrib-watch --save-dev
