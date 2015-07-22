@@ -12,5 +12,3 @@ before_script:
   - npm install -g grunt-contrib-uglify --save-dev
   # Install grunt-contrib-watch
   - npm install -g grunt-contrib-watch --save-dev
-
-script: grunt watch
