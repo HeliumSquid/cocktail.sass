@@ -3,6 +3,7 @@
 A simple material design library for Sass.
 
 [![Dependency Status](https://david-dm.org/HeliumSquid/cocktail.sass.svg)](https://david-dm.org/HeliumSquid/cocktail.sass)
+[![devDependency Status](https://david-dm.org/HeliumSquid/cocktail.sass/dev-status.svg)](https://david-dm.org/HeliumSquid/cocktail.sass#info=devDependencies)
 ![](https://img.shields.io/badge/colours-21-orange.svg)
 
 ## Contents
